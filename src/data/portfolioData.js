@@ -35,6 +35,24 @@ export const typewriterPhrases = [
 ];
 
 export const experience = [
+    {
+    id: 0,
+    color: 'cyan',
+    icon: '🏥',
+    name: 'DocSpot',
+    subtitle: 'Doctor Appointment Booking Platform',
+    description: 'Full-stack healthcare appointment booking platform enabling patients to browse doctors, filter by specialty/location, and schedule appointments in real time.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Axios', 'Bootstrap'],
+    year: 2026,
+    github: 'https://github.com/kishore-kumar-ks/docspot',
+    live: null,
+    points: [
+      'Built full-stack platform with real-time appointment booking and doctor browsing',
+      'Implemented JWT-based role auth for Admin, Doctor, and Patient dashboards',
+      'Developed RESTful APIs for booking, confirmation, rescheduling & status tracking',
+      'Integrated MongoDB for scalable storage of user profiles and appointment history',
+    ],
+  },
   {
     id: 1,
     color: 'cyan',
@@ -145,6 +163,11 @@ export const skills = [
 ];
 
 export const certifications = [
+  {
+    icon: '🏆',
+    text: 'Full Stack Development (MERN) — SmartBridge · APSCHE · 240 hrs',
+    link: 'https://apsche.smartinternz.com/certificate/student/2adc57a76109c2f80441647590634856',
+  },
   { icon: '🌐', text: 'Web Development Internship — CSEdge Verified',          link: 'https://drive.google.com/file/d/12ykJcgVXtt7cHZPQ_0aJ-lFAWs1ukpSr/view?usp=drive_link' },
   { icon: '☕', text: 'Core Java Training — Internshala Trainings',             link: 'https://drive.google.com/file/d/1zfryXyoty6sRvD-Tc7kReKerGFDpfa7S/view?usp=drive_link' },
   { icon: '🐍', text: 'Python 101 for Data Science — Internshala',             link: null },
